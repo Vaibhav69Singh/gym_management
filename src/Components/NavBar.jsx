@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import { FaBars, FaTimes, FaHome } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../Assets/gymlogo.jpg";
 import "../Components/CSS/NavBar.css";
 
@@ -17,7 +17,6 @@ const NavBar = () => {
         <a href="#">Home</a>
         <a href="#">Training</a>
         <a href="#">Pricing</a>
-        <a href="#">Trainers</a>
         <a href="#">Location</a>
         <a href="#">Login/Register</a>
         <a href="#">About</a>
