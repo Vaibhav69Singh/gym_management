@@ -27,7 +27,7 @@ const Price = () => {
   ];
 
   return (
-    <div className="price-component">
+    <div id="Pricing" className="price-component">
       <h2>Membership Plans</h2>
       <div className="plans-container">
         {plans.map((plan, index) => (

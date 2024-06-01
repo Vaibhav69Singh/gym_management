@@ -7,7 +7,8 @@
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background: #ced8ff;
+  padding-top: 80px;
 }

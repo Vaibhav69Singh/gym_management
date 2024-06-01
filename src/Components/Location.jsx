@@ -2,7 +2,7 @@ import React from "react";
 
 const Location = () => {
   return (
-    <div className="location-holder">
+    <div id="Location" className="location-holder">
       <div className="location-name">
         <h2>Fitness Point</h2>
       </div>

@@ -10,7 +10,10 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+/*.card-container:hover{
+  height: 400px;
+  width: 400px;
+}*/
 .card.is-flipped .card-inner {
   transform: rotateY(180deg);
 }

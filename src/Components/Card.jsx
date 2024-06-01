@@ -7,7 +7,7 @@ const Card = ({ imgSrc, imgAlt, title, description }) => {
     setIsFlipped(!isFlipped);
   };
   return (
-    <div className="card-container">
+    <div id="Training" className="card-container">
       <div
         className={`card ${isFlipped ? "is-flipped" : ""}`}
         onClick={handleFlip}
